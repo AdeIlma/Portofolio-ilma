@@ -26,7 +26,81 @@
     <h2 class="heading">My <span>Project</span></h2>
     <div class="project-container">
 
-      <!-- Project 1: ETL System -->
+      <!-- Project 1: Customer Satisfaction -->
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-header">
+            <div class="project-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3 class="project-title">Customer Satisfaction Prediction</h3>
+            <p class="project-description">
+              Mengembangkan model XGBoost untuk memprediksi kepuasan pelanggan dengan F2-score 80% dan accuracy 82%. Melakukan preprocessing, feature engineering, serta penanganan imbalanced data, kemudian memvisualisasikan insight melalui dashboard dan aplikasi Streamlit.
+            </p>
+          </div>
+          
+          <div>
+            <ul class="project-tags">
+              <li>Python</li>
+              <li>XGBoost</li>
+              <li>SMOTEENN</li>
+              <li>Machine Learning</li>
+            </ul>
+            
+            <div class="project-footer">
+              <a href="https://app-satisfaction-prediction-feature-importance.streamlit.app/" target="_blank" class="btn-primary">
+                <i class="fas fa-play"></i> Try Demo
+              </a>
+              <div class="project-links">
+                <a href="https://lookerstudio.google.com/reporting/6f07c186-b1d4-431a-a1d2-bd1cdaeed73d" target="_blank" title="Dashboard"><i class="fas fa-chart-line"></i></a>
+                <a href="https://github.com/PurwadhikaDev/BetaGroup_JC_DS_FT_Jogja_06_FinalProject?tab=readme-ov-file" target="_blank" title="GitHub Repository"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-visual">
+          <img src="img/dashboard-satisfaction.png" alt="Satisfaction Dashboard Screenshot" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'project-placeholder\'><i class=\'fas fa-chart-bar\'></i></div>'">
+        </div>
+      </div>
+
+      <!-- Project 2: Googlesheet -->
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-header">
+            <div class="project-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3 class="project-title">E-Commerce Sales Data Cleaning & Analysis (Google Sheets)</h3>
+            <p class="project-description">
+              Mengolah dataset penjualan e-commerce dari data mentah menjadi insight bisnis yang terstruktur menggunakan Google Sheets. Melakukan data cleaning (text standardization, trimming, format tanggal), standarisasi wilayah dengan VLOOKUP, serta analisis menggunakan Pivot Table untuk mengevaluasi performa penjualan per region, kategori, metode pembayaran, dan tren bulanan guna mendukung pengambilan keputusan bisnis.
+            </p>
+          </div>
+          
+          <div>
+            <ul class="project-tags">
+              <li>Google Sheets</li>
+              <li>Microsoft Excel</li>
+              <li>Data Cleaning</li>
+              <li>Pivot Table</li>
+              <li>Data Analysis</li>
+            </ul>
+            
+            <div class="project-footer">
+              <a href="https://docs.google.com/spreadsheets/d/1fHBbYTIbGkDyLE3uF72GAX8dbdNLCKZS/edit?gid=747586575#gid=747586575" target="_blank" class="btn-primary">
+                <i class="fas fa-external-link-alt"></i> Open Project
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-visual">
+          <img src="img/googlesheet.png" alt="Pivot table" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'project-placeholder\'><i class=\'fas fa-chart-bar\'></i></div>'">
+        </div>
+      </div>
+      </div>
+
+      <!-- Project 3: ETL System -->
       <div class="project-card">
         <div class="project-content">
           <div class="project-header">
@@ -35,7 +109,7 @@
             </div>
             <h3 class="project-title">ETL System for E-Commerce</h3>
             <p class="project-description">
-              Mengubah data e-commerce menjadi insight bisnis yang bisa dipantau dengan dashboard interaktif. Sistem ETL otomatis yang mengekstrak, mentransformasi, dan memuat data untuk analisis real-time.
+              Membangun sistem ETL berbasis Python untuk mengintegrasikan dan menormalisasi data e-commerce ke dalam database relasional MySQL. Mendesain skema database dan melakukan validasi data sebelum proses loading, serta memvisualisasikan pola transaksi melalui dashboard interaktif di Looker Studio.
             </p>
           </div>
           
@@ -65,45 +139,7 @@
         </div>
       </div>
 
-      <!-- Project 2: Customer Satisfaction -->
-      <div class="project-card">
-        <div class="project-content">
-          <div class="project-header">
-            <div class="project-icon">
-              <i class="fas fa-brain"></i>
-            </div>
-            <h3 class="project-title">Customer Satisfaction Prediction</h3>
-            <p class="project-description">
-              Membangun model klasifikasi dengan XGBoost + SMOTETomek untuk memprediksi kepuasan pelanggan. Model mencapai F2=81,1% dan Recall=80% untuk proaktif mengidentifikasi pelanggan tidak puas.
-            </p>
-          </div>
-          
-          <div>
-            <ul class="project-tags">
-              <li>Python</li>
-              <li>XGBoost</li>
-              <li>SMOTETomek</li>
-              <li>Machine Learning</li>
-            </ul>
-            
-            <div class="project-footer">
-              <a href="https://app-satisfaction-prediction-feature-importance.streamlit.app/" target="_blank" class="btn-primary">
-                <i class="fas fa-play"></i> Try Demo
-              </a>
-              <div class="project-links">
-                <a href="https://lookerstudio.google.com/reporting/6f07c186-b1d4-431a-a1d2-bd1cdaeed73d" target="_blank" title="Dashboard"><i class="fas fa-chart-line"></i></a>
-                <a href="https://github.com/PurwadhikaDev/BetaGroup_JC_DS_FT_Jogja_06_FinalProject?tab=readme-ov-file" target="_blank" title="GitHub Repository"><i class="fab fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="project-visual">
-          <img src="img/dashboard-satisfaction.png" alt="Satisfaction Dashboard Screenshot" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'project-placeholder\'><i class=\'fas fa-chart-bar\'></i></div>'">
-        </div>
-      </div>
-
-      <!-- Project 3: Google Play Review -->
+      <!-- Project 4: Google Play Review -->
       <div class="project-card">
         <div class="project-content">
           <div class="project-header">
@@ -112,7 +148,7 @@
             </div>
             <h3 class="project-title">Google Play Review Analysis Tool</h3>
             <p class="project-description">
-              Mengembangkan sistem berbasis Streamlit untuk scraping, analisis sentimen, dan visualisasi ribuan ulasan Google Play. Membantu tim marketing memahami feedback pelanggan lebih cepat dengan insight otomatis.
+              Membangun sistem analisis sentimen berbasis NLP untuk ribuan ulasan Google Play menggunakan VADER. Mengotomatisasi proses scraping, preprocessing teks, dan melakukan perankingan aplikasi dengan metode SAW untuk monitoring performa berbasis sentimen.
             </p>
           </div>
           
@@ -145,7 +181,7 @@
       </div>
       </div>
 
-      <!-- Project 4: Customer Retention -->
+      <!-- Project 5: Customer Retention -->
       <div class="project-card">
         <div class="project-content">
           <div class="project-header">
@@ -154,7 +190,7 @@
             </div>
             <h3 class="project-title">Customer Retention Analysis (RFM & Cohort)</h3>
             <p class="project-description">
-              Melakukan segmentasi pelanggan dengan analisis RFM & Cohort, menemukan churn rate ~65,25% di 2 bulan pertama, dan memberikan strategi personalisasi untuk meningkatkan retensi pelanggan.
+              Menganalisis lebih dari 20.000 transaksi untuk mengidentifikasi pola churn pelanggan menggunakan RFM Segmentation dan Cohort Analysis. Mengelompokkan 3.493 pelanggan ke dalam 7 segmen dan menemukan churn rate 65,25% dalam dua bulan pertama sebagai dasar strategi retensi.
             </p>
           </div>
           
@@ -179,15 +215,12 @@
             </div>
           </div>
         </div>
-
-        <div class="project-visual">
-          <div class="project-placeholder">
-            <i class="fas fa-chart-pie"></i>
-          </div>
+        
+       <div class="project-visual">
+          <img src="img/rfm.png" alt="RFM" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'project-placeholder\'><i class=\'fas fa-chart-bar\'></i></div>'">
         </div>
       </div>
-
-     <!-- Project 5: SQL -->
+       <!-- Project 6: SQL -->
       <div class="project-card">
         <div class="project-content">
           <div class="project-header">
@@ -220,11 +253,11 @@
         </div>
         
         <div class="project-visual">
-          <img src="" alt="" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'project-placeholder\'><i class=\'fas fa-chart-bar\'></i></div>'">
+          <img src="img/sql.png" alt="" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'project-placeholder\'><i class=\'fas fa-chart-bar\'></i></div>'">
         </div>
       </div>
       </div>
-    
+
     </div>
   </section>
 
